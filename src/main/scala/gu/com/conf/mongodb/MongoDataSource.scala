@@ -10,7 +10,7 @@ trait MongoDataSource extends MongoManagement {
   val mongoDbPassword: String
   val mongoDbName: String
 
-  val mongoDbUriOption: Option[String] = None
+  val mongoDbUriOption: Option[String]
   val mongoDbHost: Option[String]
 
   val (connection, db) = mongoDbUriOption match {

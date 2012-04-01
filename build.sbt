@@ -4,7 +4,7 @@ organization := "com.gu"
 
 name := "mongodb-configuration"
 
-version := "0.1-SNAPAHOT"
+version := "0.1.1-SNAPSHOT"
 
 scalaVersion := "2.9.1"
 
